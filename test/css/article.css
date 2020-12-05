@@ -1,0 +1,103 @@
+/* S页头 */
+.voco-top{}
+.voco-top .container-fluid{
+	height: 388px;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.voco-top .container-fluid h1{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600;
+	padding-bottom: 16px;
+}
+.voco-top .container-fluid p{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+}
+/* E页头 */
+
+
+/* S面包屑 */
+.voco-breadcrumb{}
+.voco-breadcrumb .container{
+}
+.voco-breadcrumb .container ul{
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+.voco-breadcrumb .container ul li{
+	font-size: 18px;
+}
+.voco-breadcrumb .container ul li a{
+	color: #4a4a4a;
+}
+.voco-breadcrumb .container ul li a:hover{
+	color: #4a90e2;
+}
+/* E面包屑 */
+
+
+/* S产品列表 */
+.voco-product{}
+.voco-product .container{
+	margin-bottom: 50px;
+}
+.voco-product .container>.row{}
+.voco-product .container>.row .product-left{}
+.voco-product .container>.row .product-left .title{
+	height: 70px;
+	background-color: #4A90E2;
+	display: flex;
+	align-items: center;
+}
+.voco-product .container>.row .product-left .title img{
+	width: 28px;
+	height: 28px;
+	margin-left: 34px;
+}
+.voco-product .container>.row .product-left .title p{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600;
+	padding-left: 18px;
+}
+.voco-product .container>.row .product-left .list{
+	border: 1px solid #979797;
+	border-top: none;
+}
+.voco-product .container>.row .product-left .list>ul{
+}
+.voco-product .container>.row .product-left .list>ul>li{
+	padding-top: 24px;
+	padding-bottom: 18px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-bottom: 1px solid #E3E3E3;
+}
+.voco-product .container>.row .product-left .list>ul>li a{
+	font-size: 16px;
+	color: #4a4a4a;
+}
+.voco-product .container>.row .product-left .list>ul>li a:hover{
+	color: #4A90E2;
+}
+.voco-product .container>.row .product-left .list>ul>li a.active{
+	color: #4A90E2;
+}
+.voco-product .container>.row .product-right{
+	
+}
+@media screen and (max-width: 500px){
+	.voco-product .container>.row .product-right{
+		padding-top: 40px;
+	}
+}
+
+/* E产品列表 */

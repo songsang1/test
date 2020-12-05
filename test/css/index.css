@@ -1,0 +1,351 @@
+/* S轮播 */
+.voco-carousel{
+}
+.voco-carousel .swiper-container{
+	width: 100%;
+	height: 40rem;
+}
+@media screen and (max-width: 500px) {
+    .voco-carousel .swiper-container{
+    	height: 200px;
+    }
+}
+.voco-carousel .swiper-container .swiper-wrapper{
+}
+.voco-carousel .swiper-container .swiper-wrapper .swiper-slide{
+	background-position: center;
+	background-size: cover;
+}
+/* E轮播 */
+
+
+/* S关于我们 */
+.voco-aboutus{}
+.voco-aboutus .container{
+	padding: 80px 0 100px;
+}
+.voco-aboutus .container .aboutus-left{
+	padding-right: 50px;
+}
+.voco-aboutus .container .aboutus-left h2{
+	font-size: 24px;
+	font-weight: 600px;
+	padding-bottom: 10px;
+}
+.voco-aboutus .container .aboutus-left .eng{
+	font-size: 16px;
+	font-weight: 600px;
+	padding-bottom: 26px;
+}
+.voco-aboutus .container .aboutus-left .line{
+	width: 44px;
+	height: 4px;
+	background-color: #0769EF;
+	margin-bottom: 40px;
+}
+.voco-aboutus .container .aboutus-left .introduce>p{
+	font-size: 16px;
+	color: #8E8E93;
+	text-indent:32px;
+}
+.voco-aboutus .container .aboutus-right{
+}
+.voco-aboutus .container .aboutus-right .house{
+	height: 366px;
+	background-position: center;
+	background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+	.voco-aboutus .container{
+		padding: 40px 0 50px;
+	}
+    .voco-aboutus .container .row{
+		margin: 0;
+	}
+	.voco-aboutus .container .aboutus-left{
+		padding-right: 10px;
+	}
+	.voco-aboutus .container .aboutus-left h2{
+		text-align: center;
+	}
+	.voco-aboutus .container .aboutus-left .eng{
+		text-align: center;
+	}
+	.voco-aboutus .container .aboutus-left .line{
+		margin: 0 auto 20px;
+	}
+	.voco-aboutus .container .aboutus-left .introduce>p{
+		font-size: 14px;
+	}
+}
+/* E关于我们 */
+
+
+/* S公司产品 */
+.voco-product{
+	background-color: #F6F8FA;
+}
+.voco-product .container{
+	padding: 80px 0 40px;
+}
+.voco-product .container>h2{
+	font-size: 24px;
+	font-weight: 600px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.voco-product .container>.eng{
+	font-size: 16px;
+	font-weight: 600px;
+	padding-bottom: 26px;
+	text-align: center;
+}
+.voco-product .container>.line{
+	width: 44px;
+	height: 4px;
+	background-color: #0769EF;
+	margin: 0 auto 40px;
+}
+.voco-product .container>.product{}
+.voco-product .container>.product .row{}
+.voco-product .container>.product .row>li{
+	padding-bottom: 60px;
+}
+.voco-product .container>.product .row>li .product-img{
+	height: 240px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.voco-product .container>.product .row>li .product-txt{
+	text-align: center;
+	padding-top: 30px;
+}
+.voco-product .container>.product .row>li .product-txt a{
+	font-size: 20px;
+	color: #4a4a4a;
+}
+.voco-product .container>.product .row>li .product-txt a:hover{
+	color: #4A90E2;
+}
+@media screen and (max-width: 500px){
+	.voco-product .container>.product .row{
+		margin: 0;
+	}
+	.voco-product .container>.product .row>li .product-img{
+		height: 100px;
+		border-radius: 4px;
+	}
+	.voco-product .container{
+		padding: 40px 0 40px;
+	}
+	.voco-product .container>.product .row>li{
+		padding-bottom: 16px;
+	}
+	.voco-product .container>.product .row>li .product-txt{
+		padding-top: 16px;
+	}
+	.voco-product .container>.product .row>li .product-txt a{
+		font-size: 14px;
+	}
+}
+/* E公司产品 */
+
+
+/* S我们的优势 */
+.voco-adv{
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+}
+.voco-adv .container{}
+.voco-adv .container h2{
+	font-size: 24px;
+	color: #fff;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+	text-align: center;
+	font-weight: 600px;
+	padding-top: 90px;
+}
+.voco-adv .container .eng{
+	font-size: 16px;
+	color: #fff;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+	text-align: center;
+	font-weight: 600px;
+	padding-top: 10px;
+}
+.voco-adv .container .row{}
+.voco-adv .container .row>li{
+	padding-top: 80px;
+}
+.voco-adv .container .row>li .adv-icon{
+}
+.voco-adv .container .row>li .adv-icon>img{
+	display: block;
+	margin: 0 auto;
+}
+.voco-adv .container .row>li .adv-txt{
+	padding-top: 34px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+@media screen and (max-width: 500px){
+	.voco-adv .container .row{
+		margin: 0;
+	}
+}
+/* E我们的优势 */
+
+
+/* S联系我们 */
+.voco-contact{
+	background-color: #F6F8FA;
+}
+.voco-contact .container{
+	padding: 80px 0 100px;
+}
+.voco-contact .container h2{
+	font-size: 24px;
+	font-weight: 600px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.voco-contact .container .eng{
+	font-size: 16px;
+	font-weight: 600px;
+	padding-bottom: 26px;
+	text-align: center;
+}
+.voco-contact .container .line{
+	width: 44px;
+	height: 4px;
+	background-color: #0769EF;
+	margin: 0 auto 40px;
+}
+.voco-contact .container .row{}
+.voco-contact .container .row .contact-left{
+	padding-left: 70px;
+}
+.voco-contact .container .row .contact-left>ul{}
+.voco-contact .container .row .contact-left>ul>li{
+	display: flex;
+	padding-bottom: 28px;
+}
+.voco-contact .container .row .contact-left>ul>li .contact-icon{
+	width: 56px;
+	height: 56px;
+	display: flex;
+	align-items: center;
+}
+.voco-contact .container .row .contact-left>ul>li .contact-icon>img{
+	display: block;
+	margin: 0 auto;
+}
+.voco-contact .container .row .contact-left>ul>li .contact-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 10px;
+}
+.voco-contact .container .row .contact-left>ul>li .contact-content .contact-title{
+	font-size: 16px;
+	font-weight: 600;
+	color: #4a4a4a;
+}
+.voco-contact .container .row .contact-left>ul>li .contact-content .contact-num{
+	font-size: 20px;
+	color: #8E8E93;
+}
+.voco-contact .container .row .contact-right form{
+	display: flex;
+	flex-direction: column;
+}
+.voco-contact .container .row .contact-right .line1{
+	display: flex;
+	padding-bottom: 28px;
+}
+.voco-contact .container .row .contact-right .line1>input{
+	box-sizing: border-box;
+	width: 50%;
+	height: 50px;
+	padding-left: 10px;
+	border: 1px solid #C7C7C7;
+}
+.voco-contact .container .row .contact-right .line1>.uname{
+	margin-right: 30px;
+}
+.voco-contact .container .row .contact-right .line2{
+	display: flex;
+	padding-bottom: 28px;
+}
+.voco-contact .container .row .contact-right .line2>input{
+	box-sizing: border-box;
+	width: 50%;
+	height: 50px;
+	padding-left: 10px;
+	border: 1px solid #C7C7C7;
+}
+.voco-contact .container .row .contact-right .line2>.company{
+	margin-right: 30px;
+}
+.voco-contact .container .row .contact-right .description{
+	height: 150px;
+	padding: 10px 10px;
+	border: 1px solid #C7C7C7;
+	resize: none;
+	margin-bottom: 42px;
+}
+.voco-contact .container .row .contact-right .btn{
+	width: 192px;
+	height: 50px;
+	background-color: #1578F0;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+@media screen and (max-width: 500px){
+	.voco-contact .container .row{
+		margin: 0;
+	}
+	.voco-contact .container{
+		padding: 40px 0 50px;
+	}
+	.voco-contact .container .row .contact-left{
+		padding-left: 10px;
+	}
+	.voco-contact .container .row .contact-left>ul>li .contact-content .contact-title{
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.voco-contact .container .row .contact-left>ul>li .contact-content .contact-num{
+		font-size: 16px;
+	}
+	.voco-contact .container .row .contact-left>ul>li{
+		padding-bottom: 14px;
+	}
+	.voco-contact .container .row .contact-right .line1>.uname{
+		margin-right: 10px;
+	}
+	.voco-contact .container .row .contact-right .line2>.company{
+		margin-right: 10px;
+	}
+	.voco-contact .container .row .contact-right .line1{
+		padding-bottom: 14px;
+	}
+	.voco-contact .container .row .contact-right .line2{
+		padding-bottom: 14px;
+	}
+	.voco-contact .container .row .contact-right .btn{
+		width: 100%;
+		height: 50px;
+	}
+	.voco-contact .container .row .contact-right .description{
+		margin-bottom: 20px;
+	}
+}
+/* E联系我们 */
+
+
